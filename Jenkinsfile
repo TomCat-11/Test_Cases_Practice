@@ -5,12 +5,12 @@ pipeline {
         PYTHON = "python"
     }
 
-    stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/TomCat-11/Test_Cases_Practice.git'
-            }
-        }
+    // stages {
+    //     stage('Checkout') {
+    //         steps {
+    //             git 'https://github.com/TomCat-11/Test_Cases_Practice.git'
+    //         }
+    //     }
 
         stage('Install Dependencies') {
             steps {
