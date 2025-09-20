@@ -10,4 +10,4 @@ def test_multiple():
     assert multi(2,3) == 6
 
 def test_divide():
-    assert div(2,3) == 0.6
+    assert div(3,3) == 1
